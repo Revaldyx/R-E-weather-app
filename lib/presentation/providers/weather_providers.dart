@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:weather_app/data/repository/weather_repository.dart';
-import '../models/weather_model.dart';
-import '../core/error/failure.dart';
+import '../../data/models/weather_model.dart';
+import '../../core/error/failure.dart';
 
 enum WeatherState { initial, loading, loaded, error }
 

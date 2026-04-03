@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'dart:io';
 import 'package:weather_app/core/error/exceptions.dart';
 import 'package:http/http.dart' as http;
-import 'package:weather_app/models/weather_model.dart';
+import 'package:weather_app/data/models/weather_model.dart';
 
 class WeatherRemoteDatasource {
   Future<Map<String, dynamic>> _getCoordinates(String city) async {
