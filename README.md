@@ -1,27 +1,32 @@
-# Weather App
+# R E weather app
 
-Aplikasi Flutter untuk melihat informasi cuaca terkini berdasarkan nama kota.
+Aplikasi cuaca berbasis Flutter untuk menampilkan informasi cuaca terkini berdasarkan lokasi atau pencarian kota.
 
 ## Fitur
 
-- Pencarian kota secara realtime
-- Menampilkan data cuaca terkini
-- Interface yang responsif dan user-friendly
+- Pencarian cuaca berdasarkan nama kota
+- Ambil lokasi perangkat (geolocator + geocoding)
+- Tampilan loading dan animasi (Shimmer, Lottie)
+- Penyimpanan lokal sederhana dengan Hive
 
 ## Teknologi
 
-- Flutter
-- Weather API
+- Flutter (Dart)
+- Provider (state management)
+- HTTP (integrasi API cuaca)
+- Hive (local storage)
 
-## Instalasi
+## Menjalankan Project
 
-1. Clone repository
-2. Jalankan `flutter pub get`
-3. Jalankan `flutter run`
+1. Pastikan Flutter SDK sudah terpasang.
+2. Jalankan `flutter pub get`.
+3. Jalankan aplikasi dengan `flutter run`.
 
-## Penggunaan
+## Struktur Singkat
 
-1. Buka aplikasi
-2. Cari nama kota di search bar
-3. Pilih kota yang diinginkan
-4. Lihat informasi cuaca terkini
+- `lib/` kode utama aplikasi
+- `assets/animations/` aset animasi
+- `assets/icon/` ikon aplikasi
+- `android/`, `web/` konfigurasi platform
+
+DIBUAT OLEH R E DENGAN ❤️
